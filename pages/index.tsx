@@ -58,13 +58,7 @@ const Home: NextPage = () => {
         Made by <a href="https://mahdiruizonweb.wordpress.com/">Mahdi Ruiz</a>
       </footer>
     </div>
-  <script src='https://formify.vercel.app/script.min.js'></script>
-<script>
-  const fields = ['name','email','message'];
-  const formURL = 'https://formify.vercel.app/api/forms/submissions?id=ef5ea81a-9158-4e25-beb8-23abfeb5dfff';
-  const heading = 'Feedback';
-  formifyInit(fields, formURL, heading);
-</script>
+  
   )
 }
 
