@@ -5,7 +5,6 @@ import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
   return (
-   <body>
     <div className={styles.container}>
       <Head>
         <title>Next.js test</title>
@@ -66,8 +65,6 @@ const Home: NextPage = () => {
   const heading = 'Feedback';
   formifyInit(fields, formURL, heading);
 </script>
-
-    </body>
   )
 }
 
