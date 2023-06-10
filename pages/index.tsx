@@ -53,7 +53,7 @@ const Home: NextPage = () => {
           </a>
         </div>
       </main>
-<script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+<script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js">
 <script>commentBox('5712104883486720-proj')</script>
       
       <footer className={styles.footer}>
