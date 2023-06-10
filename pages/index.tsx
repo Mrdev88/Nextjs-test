@@ -53,9 +53,10 @@ const Home: NextPage = () => {
           </a>
         </div>
       </main>
-<div class="commentbox"></div>
+<div class="commentbox">
 <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
 <script>commentBox('5712104883486720-proj')</script>
+  </div>
       
       <footer className={styles.footer}>
         Made by <a href="https://mahdiruizonweb.wordpress.com/">Mahdi Ruiz</a>
