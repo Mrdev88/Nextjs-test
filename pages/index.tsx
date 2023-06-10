@@ -54,18 +54,7 @@ const Home: NextPage = () => {
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="/__repl"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Built on
-          <span className={styles.logo}>
-            <Image src="/replit.svg" alt="Replit Logo" width={20} height={18} />
-          </span>
-          Replit By
-        </a>
-      <a href="https://replit.com/@Mrdev88">Mrdev88</a>
+        Made by <a href="https://mahdiruizonweb.wordpress.com/">Mahdi Ruiz</a>
       </footer>
     </div>
   )
